@@ -1,0 +1,141 @@
+html, body {
+    
+    background-color: #F2ECCE;
+    margin: 0px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 12px;
+}
+
+#header {
+    margin: 5px;
+    height: 100px;
+    border-radius: 5px;
+    background-image:url('images/beesunflower.jpg');
+    background-size: cover;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+#navbar ul {
+    padding: 5px;
+    list-style: none;
+    text-align: center;
+    background-color: #2C5916;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#navbar ul li {
+    display: inline;
+    font-weight: bold;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: .2em 2em;
+    color: #2C5910;
+    background-color: #D3D92B;
+    border-radius: 50em;
+}
+
+#navbar ul li a:hover {
+    text-decoration: none;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: .2em 2em;
+    color: #D3D92B;
+    background-color: #68a629;
+    border-radius: 50em;
+}
+
+.imagesidebar {
+    background-color: whitesmoke;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 95%;
+    float: left;
+    width: 180px;
+}
+
+.sidebar {
+    background-color: whitesmoke;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 95%;
+    float: left;
+    width: 180px;
+    clear: left;
+}
+
+.main {
+    background-color: whitesmoke;
+    margin-left: 240px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 100%;
+    overflow: auto;
+}
+
+#footer {
+    font-size: 10px;
+    text-align: center;
+    background-color:#2C5916;
+    margin: 10px;
+    height: 60px;
+    clear: both;
+    border-radius: 5px; 
+    color: #F2ECCE;
+}
+
+p{
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 1.4em;
+}
+
+h1, h2,h3 {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 48px;
+    word-spacing: .5em;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 32px;
+    word-spacing: .2em;
+}
+
+.gallery {
+    margin:  5px;
+    border: 1px solid black;
+    float: left;
+    width: 225px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.desc{
+    padding: 15px;
+    text-align: center;
+}
