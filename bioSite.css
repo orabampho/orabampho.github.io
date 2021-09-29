@@ -1,21 +1,23 @@
 html, body {
-    
-    background-color: #F2ECCE;
+    background-color: #f2e085;
     margin: 0px;
     font-family: 'Noto Sans JP', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 #header {
     margin: 5px;
-    height: 100px;
+    height: 175px;
     border-radius: 5px;
-    background-image:url('images/beesunflower.jpg');
+    background-image:url('images/zucchini.jpeg');
     background-size: cover;
-    text-align: right;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 20px;
     padding-right: 20px;
+    font-size: 150%;
+    opacity: .8;
+    color: #f2e085;
+    
 }
 
 #navbar ul {
@@ -35,54 +37,114 @@ html, body {
 #navbar ul li a {
     text-decoration: none;
     font-family: 'Noto Sans JP', sans-serif;
-    padding: .2em 2em;
+    padding: .2em 3em;
     color: #2C5910;
     background-color: #D3D92B;
     border-radius: 50em;
+    margin: 0 10px;
 }
 
 #navbar ul li a:hover {
     text-decoration: none;
     font-family: 'Noto Sans JP', sans-serif;
-    padding: .2em 2em;
+    padding: .2em 3em;
     color: #D3D92B;
     background-color: #68a629;
     border-radius: 50em;
+    margin: 0 10px;
 }
 
-.imagesidebar {
-    background-color: whitesmoke;
+#imageportrait {
+
     margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 0px;
-    margin-bottom: 5px;
     border-radius: 5px;
-    border-radius: 5px;
-    padding: 20px;
+    border: solid black 2px;
+    padding: 15px;
     font-size: 95%;
     float: left;
-    width: 180px;
+    width: 275px;
 }
+
+#logo {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#sidebar-link ul {
+    text-align: center;
+    padding: 14px 10px;
+   
+}   
+
+#sidebar-link a {
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    color: black;
+    box-shadow: 4px 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+#sidebar-link a:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    list-style: none;
+}
+
+.fa {
+    font-size: 100px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    padding: 1em 1em;
+    margin: 0 1px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
 
 .sidebar {
-    background-color: whitesmoke;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 0px;
+    
+    margin-left: 5px;
+    margin-right: 5px;
     margin-bottom: 5px;
     border-radius: 5px;
-    border-radius: 5px;
-    padding: 20px;
-    font-size: 95%;
+    font-size: 85%;
     float: left;
-    width: 180px;
+    width: 275px;
     clear: left;
+    padding: 20px;
+    text-align: center;
+   
+   
 }
 
 .main {
-    background-color: whitesmoke;
-    margin-left: 240px;
-    margin-right: 10px;
+    background-color: #F2ECCE;
+    margin-left: 300px;
+    margin-right: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 5px;
@@ -95,16 +157,23 @@ html, body {
     font-size: 10px;
     text-align: center;
     background-color:#2C5916;
-    margin: 10px;
     height: 60px;
     clear: both;
-    border-radius: 5px; 
     color: #F2ECCE;
+    width: 100%;
+    position: relative;
+   
 }
 
-p{
+p {
     font-family: 'Noto Sans JP', sans-serif;
     line-height: 1.4em;
+}
+
+.para-a {
+    text-indent: 2em;
+    font-size: large;
+    text-align: justify;
 }
 
 h1, h2,h3 {
@@ -114,25 +183,39 @@ h1, h2,h3 {
 h1 {
     font-weight: 500;
     font-size: 48px;
-    word-spacing: .5em;
+    word-spacing: .2em;
 }
 
 h2 {
     font-weight: 400;
     font-size: 32px;
+    word-spacing: .1em;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 24px;
     word-spacing: .2em;
+    text-align: center;
+    margin-top: auto;
 }
 
 .gallery {
-    margin:  5px;
     border: 1px solid black;
     float: left;
-    width: 225px;
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    margin: 20px 10px 15px 10px;
 }
 
 .gallery img {
     width: 100%;
-    height: auto;
+    height: 200px;
+    
 }
 
 .desc{
