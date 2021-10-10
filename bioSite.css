@@ -75,6 +75,7 @@ html, body {
     text-align: center;
     padding: 14px 10px;
     text-decoration: none;
+    list-style: none;
 }   
 
 #sidebar-link a {
