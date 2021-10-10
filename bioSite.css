@@ -17,7 +17,6 @@ html, body {
     font-size: 150%;
     opacity: .8;
     color: #f2e085;
-    
 }
 
 #navbar ul {
@@ -75,7 +74,7 @@ html, body {
 #sidebar-link ul {
     text-align: center;
     padding: 14px 10px;
-   
+    text-decoration: none;
 }   
 
 #sidebar-link a {
@@ -134,8 +133,6 @@ html, body {
     clear: left;
     padding: 20px;
     text-align: center;
-   
-   
 }
 
 .main {
@@ -159,7 +156,6 @@ html, body {
     width: 100%;
     position: relative;
     text-align: center;
-   
 }
 
 p {
